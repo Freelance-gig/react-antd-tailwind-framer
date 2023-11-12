@@ -10,10 +10,7 @@ const router = createBrowserRouter([
     element: <HomePage />,
     errorElement: <ErrorPage />,
   },
-  {
-    path: "/pagetwo",
-    element: <PageTwo />,
-  },
+
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
